@@ -68,7 +68,7 @@ Click below image to be directed to the html file for download and to view an in
 
 <div align="center">
   
-  [<img width="509" alt="Global Happines Link Object" src="https://user-images.githubusercontent.com/65078870/86192581-ee9b0480-bb17-11ea-9d86-5e2fa4b3c7b6.PNG">](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/images/Fig_Q1.html)
+  [![Globe Happiness viz gif](https://user-images.githubusercontent.com/65078870/86514330-bc232d00-bddf-11ea-8772-b974bd960f6e.gif)](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/images/Fig_Q1.html)
   
 </div>
 
