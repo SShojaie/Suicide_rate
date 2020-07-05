@@ -26,7 +26,7 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 
 +  [How does the happiness index look across the globe?](#happiness-index-across-the-globe)
 +  [Does economic health correlate with happiness?](#economic-health-factors-versus-happiness-index) 
-+  [What other factors impact happiness?](#correlations-summary)
++  [What other factors impact happiness?](#summary-of-correlations)
 +  [How do outlier countries perform within the UN's happiness index variables?](#outliers-and-happiness-index-variables)
 +  [How do outlier countires perform with other factors?](#outliers-and-other-factors)
 +  How does Canada compare with outlier countries? 
@@ -75,9 +75,6 @@ Click below image to be directed to the html file for download and to view an in
 
 ## In Focus: Analysis
   
-  
-  ----
-  
   ### Economic Health Factors versus Happiness Index
   #### Does economic health correlate with happiness?
   
@@ -97,16 +94,17 @@ Click below image to be directed to the html file for download and to view an in
    
    **_Observable Trends/Insights:_** 
   
-  GDP had a strong positive correlation with Happiness Index. On the other hand, Unemployment rate showed a negative correlation.
+  +   **GDP** had a strong positive relationship or correlation with Happiness Index while **Unemployment Rate** inversely showed a negative correlation. 
   
-  **Costa Rica** , **Spain** , **Brazil** , **Nicaragua** have been identified as outliers. 
+  +   We have identified outlier countries namely  **Costa Rica** and **Nicaragua**, for it demonstrated a relatively high Happiness Index scores even if its Log GDP was not outstanding. On the other hand, **Brazil** and **Spain**'s Happiness Index scores were also high in the midst of high Unemployment Rate.
    
   
   ----
   
-  ### Correlations Summary
+  ### Summary of Correlations 
   
-  #### What makes people happy and unhappy?
+  #### What makes people happy and unhappy? 
+  We looked at 23 variables (6 are from the World Happiness Report)
   
   <div align="center">
   
@@ -117,8 +115,8 @@ Click below image to be directed to the html file for download and to view an in
   
    **_Observable Trends/Insights:_** 
    
-   Other factors such as **Brain Drain** and **Security Index** topped the negative correlations, while **Rev Tourism** and **Average Age** showed the most positive correlations to Happiness Index.
-  
+   +  **Rev Tourism** and **Average Age** topped our positively correlated factors that impact Happinesss. 
+   +  **Brain Drain** and **Security Index** showed the most negatively correlated factors that impact Happiness.  
   
   ----
   
@@ -134,7 +132,8 @@ Click below image to be directed to the html file for download and to view an in
   
    **_Observable Trends/Insights:_** 
    
-   For our outliers - **Costa Rica** , **Spain** , **Brazil** , **Nicaragua**, they all demonstrated *Social Support* mattered most to them in measuring the level of happiness. 
+   +  Outlier countries - *Costa Rica* , *Spain* , *Brazil* , and *Nicaragua* demonstrated that **Social Support** mattered most compared to the other factors that impact the Happiness Index within the UN's WHR.  
+  
   
   
   ----
