@@ -51,7 +51,7 @@ Our primary dataset is derived from annual World Happiness Reports (WHR) publish
   
 ## Data Cleaning
   
-Our datasets were downloaded in the form of csv files. The cleaning process starts with each sources of data, dropping irrelevant columns, renaming column headers, and replacing Nan values with the average value between prior and succeeding year data. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. There's also a separate table prepared, containing normalized values during analysis.  
+The datasets were downloaded in the form of Comma Separated Values, from various sources like world bank website, GDHx (University of Washington) and CIA website. The data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
 
 ## Data Analysis
 
