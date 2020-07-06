@@ -35,7 +35,15 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 
 ## Data Background
 
-Our primary dataset is derived from annual World Happiness Reports (WHR) published by the UN's Sustainable Development Solutions Network. It is then merged with other data obtained from the GHDx (Global Health Data Exchange) - University of Washington's Institute for Health Metrics and Evaluation, The World Bank, ... and
+Our primary dataset is derived from annual World Happiness Reports (WHR) published by the UN's Sustainable Development Solutions Network. The other datasets were obtained from various sources through the following websites: 
++   https://ghdx.healthdata.org
++   https://www.theglobaleconomy.com
++   https://www.cia.gov/library/publications/the-world-factbook/rankorder/2177rank.html
++   https://www.weforum.org/agenda/2019/04/which-countries-get-the-most-sleep-and-how-much-do-we-really-need/
+
+It is then merged with other data obtained from the GHDx (Global Health Data Exchange) by the University of Washington,  The World Bank, ... and
+
+from various sources like world bank website, GDHx (University of Washington) and CIA website.
 
 <div align="center">
   
@@ -51,7 +59,7 @@ Our primary dataset is derived from annual World Happiness Reports (WHR) publish
   
 ## Data Cleaning
   
-The datasets were downloaded in the form of Comma Separated Values, from various sources like world bank website, GDHx (University of Washington) and CIA website. The data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
+The datasets were downloaded in the form of Comma Separated Values (CSV). Data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
 
 ## Data Analysis
 
