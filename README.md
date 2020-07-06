@@ -133,8 +133,7 @@ Click below image to be directed to the html file for download and to view an in
   
    **_Observable Trends/Insights:_** 
    
-   +  **Brain drain** and **Security index** topped the negatively correlated factors that impact Happiness. In contrast, **Sleep (min)** and **Literacy rate** showed the most positively correlated factors; but the group conducted a more in depth analysis on **Rev Tourism** and **Average Age** factors due to the limitations the aforementioned variables.
- 
+   +  **Brain drain** and **Security index** topped the negatively correlated factors that impact Happiness. In contrast, **Sleep (min)**, **Average Age**, **Literacy rate** and **Rev Tourism** showed the most positively correlation. 
   
   ----
   
@@ -229,7 +228,7 @@ Click below image to be directed to the html file for download and to view an in
   
   
   # Limitations
-  
+  Lietracy Rate and Sleep shows much stronger positive corelation with happiness index, but due to the unavilability of the data for the outlier countries, the in-depth analysis could not be performed using these two variables.
   
   # Appendices
   
