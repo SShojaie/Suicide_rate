@@ -35,23 +35,30 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 
 ## Data Background
 
-Our primary dataset is derived from annual World Happiness Reports (WHR) published by the UN's Sustainable Development Solutions Network. The other datasets were obtained from various sources namely the GHDx (Global Health Data Exchange) by the University of Washington, TheGlobalEconomy, Central Intelligence Agency (CIA), and Weforum websites. 
+Our primary dataset was obtained from the World Happiness Report (WHR) developed by UN's Sustainable Development Solutions Network. It's an annual publication that surveys the state of global happiness and ranks countries by how happy their citizens perceive themselves to be, which the report also correlates with various life factors. 
 
-
-
+The group also searched for other factors that could potentially impact the measure of happiness. Those datasets were derived from different sources such as the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government and World Economic Forum websites. 
 
 <div align="center">
   
-<img width="460" alt="Datasets Table" src="https://user-images.githubusercontent.com/65078870/86512748-cc80db00-bdd2-11ea-89e7-6176e20802ea.PNG">
+<img width="454" alt="Sources Table" src="https://user-images.githubusercontent.com/65078870/86603006-75653c80-bf71-11ea-8f1b-f6388edb3ba0.PNG">
 
 </div>
 
 ## Hypothesis
 
-"Economic Health in terms of GDP and Unemployment are not correlated to Happiness"
+<div align="center">
+
+> "A country's economic health by measure of GDP and Unemployment does not impact its people's happiness"
+
+</div>
+
+<div align="center">
   
-"Other factors (variables exclusive of UN's WHR) do not impact Happiness"
-  
+> "Are richer nations happier?" 
+
+</div>
+
 ## Data Cleaning
   
 The datasets were downloaded in the form of Comma Separated Values (CSV). Data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
