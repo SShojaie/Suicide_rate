@@ -20,6 +20,15 @@ But we've all thought that we'd be happier with more cash in our pocket at some 
 
 While some would argue that “Rich countries are definitely happier than poor countries,” this project will look into other variables other than a country's economic health.
 
+----
+<div align="center">
+  
+> "Are richer nations happier?" 
+
+</div>
+
+----
+
 ## Mission
 
 Utilize Python, Pandas, Numpy and Data Visualization tools to answer the following questions: 
@@ -35,23 +44,30 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 
 ## Data Background
 
-Our primary dataset is derived from annual World Happiness Reports (WHR) published by the UN's Sustainable Development Solutions Network. It is then merged with other data obtained from the GHDx (Global Health Data Exchange) - University of Washington's Institute for Health Metrics and Evaluation, The World Bank, ... and
+Our primary dataset was obtained from the World Happiness Report (WHR) developed by UN's Sustainable Development Solutions Network. It's an annual publication that surveys the state of global happiness and ranks countries by how happy their citizens perceive themselves to be, which the report also correlates with various life factors. 
+
+The group also searched for other factors that could potentially impact the measure of happiness. Those datasets were derived from different sources such as the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government and World Economic Forum websites. 
 
 <div align="center">
   
-<img width="460" alt="Datasets Table" src="https://user-images.githubusercontent.com/65078870/86512748-cc80db00-bdd2-11ea-89e7-6176e20802ea.PNG">
+<img width="454" alt="Sources Table" src="https://user-images.githubusercontent.com/65078870/86603006-75653c80-bf71-11ea-8f1b-f6388edb3ba0.PNG">
 
 </div>
 
 ## Hypothesis
+---
+<div align="center">
 
-"Economic Health in terms of GDP and Unemployment are not correlated to Happiness"
-  
-"Other factors (variables exclusive of UN's WHR) do not impact Happiness"
-  
+> "A country's economic health by measure of GDP and Unemployment does not impact the happiness of its people"
+
+</div>
+
+---
+
+
 ## Data Cleaning
   
-The datasets were downloaded in the form of Comma Separated Values, from various sources like world bank website, GDHx (University of Washington) and CIA website. The data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
+The datasets were downloaded in the form of Comma Separated Values (CSV). Data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
 
 ## Data Analysis
 
@@ -94,87 +110,110 @@ Click below image to be directed to the html file for download and to view an in
    
    **_Observable Trends/Insights:_** 
   
-  +   **GDP** had a strong positive relationship or correlation with Happiness Index while **Unemployment Rate** inversely showed a negative correlation. 
+  +   Regression analysis finds bought **GDP** and **Unemployment Rate** are correlated with the Happiness Index, however there are exceptions. 
   
-  +   We have identified outlier countries namely  **Costa Rica** and **Nicaragua**, for it demonstrated a relatively high Happiness Index scores even if its Log GDP was not outstanding. On the other hand, **Brazil** and **Spain**'s Happiness Index scores were also high in the midst of high Unemployment Rate.
+  +   GDP had a strong positive relationship or correlation with Happiness Index while Unemployment Rate inversely showed a negative correlation. 
+  
+  +   Exceptions include outlier countries namely  **Costa Rica** and **Nicaragua**, for it demonstrated a relatively high Happiness Index scores even if its Log GDP were not outstanding. On the other hand, **Brazil** and **Spain**'s Happiness Index scores were high in the midst of high Unemployment rates.
    
   
   ----
   
   ### Summary of Correlations 
   
-  #### What makes people happy and unhappy? 
-  We looked at 23 variables (6 are from the World Happiness Report)
+  #### What other factors impact happiness?? 
+  A series of variables (17 additional) from different datasets were compiled and analyzed for correlation with the Happiness Index
   
   <div align="center">
   
-  <img width="725" alt="Correlations - All variables" src="https://user-images.githubusercontent.com/65078870/86067269-7d3d5200-ba42-11ea-80b7-c95f42f62555.PNG">
+  <img width="892" alt="Series Variable Correlation" src="https://user-images.githubusercontent.com/65078870/86611437-a7c86700-bf7c-11ea-9d7f-d714f73881de.PNG">
   
   </div>
   
   
    **_Observable Trends/Insights:_** 
    
-   +  **Rev Tourism** and **Average Age** topped our positively correlated factors that impact Happinesss. 
-   +  **Brain Drain** and **Security Index** showed the most negatively correlated factors that impact Happiness.  
+   +  **Brain drain** and **Security index** topped the negatively correlated factors that impact Happiness. In contrast, **Sleep (min)**, **Average Age**, **Literacy rate** and **Rev Tourism** showed the most positively correlation. 
   
   ----
   
   ### Outliers and Happiness Index Variables
-  #### How do outliers perform on UN's Happiness Index variables?
+  #### How do our relatively happy countries rank on the Happiness Index variables? 
   
   <div align="center">
   
-  <img width="555" alt="Outliers-Perform Happiness Index Factors" src="https://user-images.githubusercontent.com/65078870/86343524-13ca6880-bc27-11ea-9291-5f273a47be08.PNG">
+  <img width="692" alt="Happy Outliers and Happiness Index" src="https://user-images.githubusercontent.com/65078870/86612021-7d2ade00-bf7d-11ea-8f1e-d60148f446d1.PNG">
   
   </div>
   
   
    **_Observable Trends/Insights:_** 
    
-   +  Outlier countries - *Costa Rica* , *Spain* , *Brazil* , and *Nicaragua* demonstrated that **Social Support** mattered most compared to the other factors that impact the Happiness Index within the UN's WHR.  
-  
-  
+   +  Scores vary along the Happiness Index factors among selected happy countries. All countries showed high scores for **Social Support**. 
+   
+   +  Costa Rica and Nicaragua scored especially high on **Freedom**, while Spain scored high on **Healthy Life Expectancy**.  
+   
+   +  Interestingly, these selected countries rank low on **Generosity**.  
   
   ----
   
   ### Outliers and Other Factors
-  #### How do outliers perform on other factors? 
+  #### How do our relatively happy countries rank on additional happiness variables, correlated with the Happiness Index?  
   
   <div align="center">
   
-  <img width="698" alt="Outliers-TopFactors vs Happiness and Unhappiness" src="https://user-images.githubusercontent.com/65078870/86342659-ec26d080-bc25-11ea-9d46-da5fc421fef2.PNG">
+  <img width="917" alt="Top Factors for Happy and Unhappy" src="https://user-images.githubusercontent.com/65078870/86612584-5e791700-bf7e-11ea-8825-1435c6b6da55.PNG">
   
   </div>
   
+  
   **_Observable Trends/Insights:_** 
+  +   Scores for additional variables correlated with happiness vary among the selected happy countries. Interestingly, Nicaragua does not perform well across all four variables.
+  
+  +   Spain has the highest earnings from Tourism, while all other outlier countries underperform on this indicator. The average age of the outlier countries is low indicating that younger population perform better on happiness index and these factors are positively corelated to happiness index.
+  
+  +   Brain drain is a challenge for these countries, maximum brain drain occurs in Nicaragua, affecting its happiness index. Security threat could be one of the major reasons for impacting the perception of happiness, therby brain drain and security threat negatively impact the happiness index.
+  
   
   
   ----
   
   ### Canada and USA on Happiness
-  #### How does Canada compare to US? 
+  #### How do we (Canada) rank along the Happiness Index factors and the additional highly correlated variables?  
   
   <div align="center">
   
-  <img width="738" alt="Canada vs USA Perform" src="https://user-images.githubusercontent.com/65078870/86348315-82122980-bc2d-11ea-9adc-da45583d9e4c.PNG">
+  <img width="444" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="657" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86613960-4904ec80-bf80-11ea-9724-233e5a71edd8.PNG">
   
   </div>
   
-  **_Observable Trends/Insights:_** 
   
+  **_Observable Trends/Insights:_** 
+  +   With the exception of GDP & Generosity, Canada out performs the US across Happiness Index variables. Perception of corruption is especially low in Canada, compared to the US. This clearly demonstrates that GDP is not the most dominant factor in measuring a country's happiness index. 
   
   ----
   
   ### Happiness Over Time 
-  ### How does happiness change over time?
+  ### Can happiness change over time? 
   
   <div align="center">
   
-  <img width="689" alt="Outliers and Canada Happiness over time" src="https://user-images.githubusercontent.com/65078870/86067929-0f922580-ba44-11ea-8755-2f0dfaeefdb8.PNG">
+  <img width="474" alt="Happiness over time" src="https://user-images.githubusercontent.com/65078870/86614812-8cac2600-bf81-11ea-94fa-c626a4f800a3.PNG">
   
   </div>
   
+  
+  **_Observable Trends/Insights:_** 
+  +   Globally, happiness as defined by the Happiness Index is relatively stable. 
+  +   From our selected happy countries, Nicaragua has been trending happier in more recent years, while Spain’s happiness has been slowly declining 
+
+  <div align="center">
+  
+  <img width="468" alt="Canada Happiness over time" src="https://user-images.githubusercontent.com/65078870/86615248-32f82b80-bf82-11ea-9dd5-6f24866d968b.PNG">
+  
+  </div>
+  
+  +   Canada’s Happiness Index has been relatively stable. 
   
   ---
   
@@ -189,6 +228,14 @@ Click below image to be directed to the html file for download and to view an in
   
   
   # Limitations
+  Lietracy Rate and Sleep shows much stronger positive corelation with happiness index, but due to the unavilability of the data for the outlier countries, the in-depth analysis could not be performed using these two variables.
+  
+  # Appendices
   
   
+  Reference/Sources: 
++   https://ghdx.healthdata.org
++   https://www.theglobaleconomy.com
++   https://www.cia.gov/library/publications/the-world-factbook/rankorder/2177rank.html
++   https://www.weforum.org/agenda/2019/04/which-countries-get-the-most-sleep-and-how-much-do-we-really-need/
   
