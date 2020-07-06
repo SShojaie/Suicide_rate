@@ -151,7 +151,9 @@ Click below image to be directed to the html file for download and to view an in
   </div>
   
   **_Observable Trends/Insights:_** 
+  + Spain has the highest earnings from Tourism, while all other outlier countries underperform on this indicator. The average age of the outlier countries is low indicating that younger population perform better on happiness index and these factors are positively corelated to happiness index.
   
+  + Brain drain is a challenge for these countries, maximum brain drain occurs in Nicaragua, affecting its happiness index. Security threat could be one of the major reasons for impacting the perception of happiness, therby brain drain and security threat negatively impact the happiness index.
   
   ----
   
@@ -165,7 +167,7 @@ Click below image to be directed to the html file for download and to view an in
   </div>
   
   **_Observable Trends/Insights:_** 
-  
+  + Although Canada has a lower GDP compared to USA but it has higher happiness index due to the other factors like Social support, Healthy life expectancy, freedom, perception of corruption and generosity. This clearly demonstrates that GDP is not the most dominant factor in measuring a countries happiness index  
   
   ----
   
