@@ -35,15 +35,10 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 
 ## Data Background
 
-Our primary dataset is derived from annual World Happiness Reports (WHR) published by the UN's Sustainable Development Solutions Network. The other datasets were obtained from various sources through the following websites: 
-+   https://ghdx.healthdata.org
-+   https://www.theglobaleconomy.com
-+   https://www.cia.gov/library/publications/the-world-factbook/rankorder/2177rank.html
-+   https://www.weforum.org/agenda/2019/04/which-countries-get-the-most-sleep-and-how-much-do-we-really-need/
+Our primary dataset is derived from annual World Happiness Reports (WHR) published by the UN's Sustainable Development Solutions Network. The other datasets were obtained from various sources namely the GHDx (Global Health Data Exchange) by the University of Washington, TheGlobalEconomy, Central Intelligence Agency (CIA), and Weforum websites. 
 
-It is then merged with other data obtained from the GHDx (Global Health Data Exchange) by the University of Washington,  The World Bank, ... and
 
-from various sources like world bank website, GDHx (University of Washington) and CIA website.
+
 
 <div align="center">
   
@@ -199,4 +194,12 @@ Click below image to be directed to the html file for download and to view an in
   # Limitations
   
   
+  # Appendices
+  
+  
+  Reference/Sources: 
++   https://ghdx.healthdata.org
++   https://www.theglobaleconomy.com
++   https://www.cia.gov/library/publications/the-world-factbook/rankorder/2177rank.html
++   https://www.weforum.org/agenda/2019/04/which-countries-get-the-most-sleep-and-how-much-do-we-really-need/
   
