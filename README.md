@@ -1,7 +1,7 @@
 ## The Pursuit of Happiness, a Group Project.
 Think money can buy you happiness? Read on to see if there's truth to that.. 
 
-Applying Data Analytics and Visualization Techniques to highlight other factors that impact world happiness.
+Applying data analytics and visualization techniques to highlight other factors that impact world happiness.
 
 
 <div align="center">
@@ -18,25 +18,25 @@ Now it might seem an odd time to start a project about world happiness. After al
 
 But we've all thought that we'd be happier with more cash in our pocket at some point or another; and it's only natural to feel unhappy and stressed when money's tight. This is precisely why now is the right moment to explore readily available data, to be able to analyze trends over time and correlate factors that impact happiness across the world. 
 
-While some would argue that “Rich countries are definitely happier than underdeveloped countries,” this project will look into other variables other than a country's economic health.
+While some would argue that “Rich countries are definitely happier than underdeveloped countries,” this project evaluates the importance of other factors, in addition to a country's economic health.
 
 ## Mission
 
-Utilize Python, Pandas, Numpy and Data Visualization tools to answer the following questions: 
+Utilize Python, Pandas, Numpy and, Matplotlib and other visualization libraries to analyze and answer the following questions: 
 
-+  [How does the happiness index look across the globe?](#happiness-index-across-the-globe)
++  [How does the Happiness Index vary across the globe?](#happiness-index-across-the-globe)
 +  [Does economic health correlate with happiness?](#economic-health-factors-versus-happiness-index) 
 +  [What other factors impact happiness?](#summary-of-correlations)
-+  [How do relatively happy countries rank on the Happiness Index variables?](#outliers-and-happiness-index-variables)
-+  [How do relatively happy countries rank on other factors?](#outliers-and-other-factors)
-+  [How does Canada perform and compare to US?](#canada-and-usa-on-happiness)
-+  [Can happiness change over time?](#happiness-over-time) 
++  [How do happy countries relative to their economic health rank on the Happiness Index variables?](#outliers-and-happiness-index-variables)
++  [How do happy countries relative to their economic health rank on other factors correlated with happiness?](#outliers-and-other-factors)
++  [How does Canada perform on the Happiness Index variables and how does it compare to the US?](#canada-and-usa-on-happiness)
++  [Is happiness changing over time?](#happiness-over-time) 
 
 ## Data Background
 
-Our primary dataset was obtained from the World Happiness Report (WHR) developed by UN's Sustainable Development Solutions Network. It's an annual publication that surveys the state of global happiness and ranks countries by how happy their citizens perceive themselves to be, which the report also correlates with various life factors. 
+Our primary dataset was obtained from the World Happiness Report (WHR) developed by UN's Sustainable Development Solutions Network. It's an annual publication that surveys the state of global happiness and ranks countries by how happy their citizens perceive themselves to be and by various life factors. 
 
-The group also searched for other factors that could potentially impact the measure of happiness. Those datasets were derived from different sources such as the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government and World Economic Forum websites. 
+The group also searched for other factors that could potentially impact the measure of happiness. Additional datasets were obtained from different sources including the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government, and World Economic Forum. 
 
 <div align="center">
   
@@ -44,22 +44,22 @@ The group also searched for other factors that could potentially impact the meas
 
 </div>
 
-All retrieved datasets date back to year 2005 but the first official WHR was published in 2012.  The scope of our in depth analysis covers the recent 2017 because it has a complete set of data. 
+Most retrieved datasets date back to 2005, although the first official WHR was published in 2012. The scope of this analysis is predominantly the year 2017, as this is the most recent year that provided a near complete picture within the Happiness Index dataset and the additional variables analyzed. 
 
-## Hypothesis
+## Null Hypothesis
 
 "A country's economic health by measure of GDP and Unemployment does not impact the happiness of its people"
 
 
 ## Data Cleaning
   
-The datasets were downloaded in the form of Comma Separated Values (CSV). Data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
+Datasets were downloaded in the form of Comma Separated Values (CSV). The data cleaning process began with renaming column headers and dropping columns not required for the analysis. Datasets were not always complete, therefore fields containing NaN values were replaced with the preceding or succeeding year's values. Data from various sources were merged to create a complete dataset for analysis. Merging from different sources created the challenge of dealing with country names that did not match in all data sets. Therefore the match function was used to identify the same countries with different names, followed by renaming to create a complete set of matching country names across all data sets. Finally all data points were transformed through a function matrix and merged into a single dataframe. To find correlation and to be able to compare rankings and performance among the various variables, the values in each happiness-related factors were normalized for the analysis.
 
 [See code: Data Cleaning](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/July07_vivi/DataCleaning.ipynb)
 
 ## Data Analysis
 
-An initial data analysis was conducted during the "pre-work" phase in order to reframe specific questions this project intends to pursue. When the group had identified certain factors and outlier countries of interests to focus on, the main analysis proceeded with correlation and regression of variables among those highlighted countries. 
+An initial exploratory analysis of the data was conducted during the "pre-work" phase in order to frame the specific questions that this project sought to answer. Once the group identified specific factors and outlier countries of interests to focus on, the main analysis proceeded. The group looked at the correlation among identified variables with happiness and conducted a deep-dive into what other factors could be impacting happiness among the countries of focus, including Canada. 
 
 ## Data Visualization 
 
@@ -69,7 +69,7 @@ An initial data analysis was conducted during the "pre-work" phase in order to r
 
 ### Happiness Index Across the Globe
 
-Click below image to be directed to the html file for download and view a more interactive visualization:
+Click below image to be directed to the html file for download and to view an interactive version of the globe:
 
 
 <div align="center">
@@ -81,7 +81,7 @@ Click below image to be directed to the html file for download and view a more i
 
 ## In Focus: Analysis
   
-  ### Economic Health Factors versus Happiness Index
+  ### Economic Health Factors and the Happiness Index
   #### **_Does economic health correlate with happiness?_** 
   
   <div align="center">
