@@ -20,10 +20,6 @@ But we've all thought that we'd be happier with more cash in our pocket at some 
 
 While some would argue that “Rich countries are definitely happier than underdeveloped countries,” this project will look into other variables other than a country's economic health.
 
-
-
-----
-
 ## Mission
 
 Utilize Python, Pandas, Numpy and Data Visualization tools to answer the following questions: 
@@ -52,11 +48,7 @@ All retrieved datasets date back to year 2005 but the first official WHR was pub
 
 ## Hypothesis
 
-<div align="center">
-
 "A country's economic health by measure of GDP and Unemployment does not impact the happiness of its people"
-
-</div>
 
 
 ## Data Cleaning
