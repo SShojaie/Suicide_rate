@@ -46,7 +46,7 @@ The group also searched for other factors that could potentially impact the meas
 
 Most retrieved datasets date back to 2005, although the first official WHR was published in 2012. The scope of this analysis is predominantly the year 2017, as this is the most recent year that provided a near complete picture within the Happiness Index dataset and the additional variables analyzed. 
 
-## Null Hypothesis
+## Hypothesis
 
 "A country's economic health by measure of GDP and Unemployment does not impact the happiness of its people"
 
@@ -100,18 +100,15 @@ Click below image to be directed to the html file for download and to view an in
    
    **_Observable Trends/Insights:_** 
   
-  +   Regression analysis finds bought GDP and Unemployment Rate are correlated with the Happiness Index, however there are exceptions. 
-  
-  +   GDP had a strong positive relationship or correlation with Happiness Index while Unemployment Rate inversely showed a negative correlation. 
-  
-  +   Exceptions include outlier countries namely  **Costa Rica** and **Nicaragua** beacuse it demonstrated relatively high Happiness Index scores even if its Log GDP were not outstanding. On the other hand, **Brazil** and **Spain** aldo had high Happiness Index scores in the midst of high unemployment rates.
-   
+  +   To analyze economic health and it's correlation to the Happiness Index, we looked at GDP and % unemployment as indicators of economic health. Pearson correlation coefficient found that GDP is highly correlated with the Happiness Index (r=0.74), while % unemployment had a much weaker correlation with the Happiness Index (-0.21). 
+    
+  +   A regression analysis helped identify select countries that were relatively happier in comparison to their economic health. We identified and focused on **Costa Rica** and **Nicaragua** who had a relatively high happiness index score while lower GDP, and **Brazil** and **Spain** who also had a relatively high happiness index score while higher % of unemployment. 
   
   ----
   
-  ### Summary of Correlations 
+  ### Additional Factors that Impact Happiness
   
-  #### **_What other factors impact happiness?_** 
+  #### **_What other factors are correlated with the Happiness Index?_** 
   A series of variables (17 additional) from different datasets were compiled and analyzed for correlation with the Happiness Index
   
   <div align="center">
@@ -124,11 +121,12 @@ Click below image to be directed to the html file for download and to view an in
    **_Observable Trends/Insights:_** 
    
    +  **Brain drain** and **Security index** topped the negatively correlated factors that impact Happiness. 
-   +  Although **Sleep (min)** and  **Literacy rate** showed the most positively correlated factors with Happiness Index, we looked into **Rev Tourism** and **Average Age** variables for further analysis beacuse it doesn't have the limitations imposed by the aforementioned factors. 
+   +  **Sleep** and  **Literacy rate** topped the positively correlated factors that impact Happiness. While Sleep and Literacy rate were highly correlated with the Happiness index, due to limited data availability, we shifted our focus to the next two positively correlated factors: **Tourism revenue** and **Average age of population**
+
   ----
   
-  ### Outliers and Happiness Index Variables
-  #### **_How do our relatively happy countries rank on the Happiness Index variables?_** 
+  ### Relatively Happy Countries and Their Performance on Happiness Index Variables
+  #### **_How do our focus countries rank on the Happiness Index variables?_** 
   
   <div align="center">
   
@@ -147,8 +145,8 @@ Click below image to be directed to the html file for download and to view an in
   
   ----
   
-  ### Outliers and Other Factors
-  #### **_How do our relatively happy countries rank on additional happiness variables, correlated with the Happiness Index?_**  
+  ### Relatively Happy Countries and Their Performance on Other Factors Related to Happiness
+  #### **_How do our focus countries rank on additional factors found to be correlated with the Happiness Index?_**  
   
   <div align="center">
   
@@ -160,7 +158,7 @@ Click below image to be directed to the html file for download and to view an in
   **_Observable Trends/Insights:_** 
   +   Scores for additional variables correlated with happiness vary among the selected happy countries. Interestingly, Nicaragua does not perform well across all four variables.
   
-  +   Spain has the highest earnings from Tourism, while all other outlier countries underperform on this indicator. The average age of the outlier countries is low indicating that younger population perform better on happiness index and these factors are positively corelated to happiness index.
+  +   Spain has the highest earnings from tourism, while all other outlier countries underperform on this indicator. 
   
   +   Brain drain is a challenge for these countries, maximum brain drain occurs in Nicaragua, affecting its happiness index. Security threat could be one of the major reasons for impacting the perception of happiness, therby brain drain and security threat negatively impact the happiness index.
   
@@ -169,7 +167,7 @@ Click below image to be directed to the html file for download and to view an in
   ----
   
   ### Canada and USA on Happiness
-  #### **_How do we (Canada) rank along the Happiness Index factors and the additional highly correlated variables?_**  
+  #### **_How does Canada rank on the Happiness Index variables and additional factors found to be correlated with happiness?_**  
   
   <div align="center">
   
@@ -179,12 +177,13 @@ Click below image to be directed to the html file for download and to view an in
   
   
   **_Observable Trends/Insights:_** 
-  +   With the exception of GDP & Generosity, Canada out performs the US across Happiness Index variables. Perception of corruption is especially low in Canada, compared to the US. This clearly demonstrates that GDP is not the most dominant factor in measuring a country's happiness index. 
+  +   With the exception of GDP & Generosity, Canada out performs the US across Happiness Index variables. 
+  +   Perception of corruption is especially low in Canada, compared to the US. This clearly demonstrates that GDP is not everything when it comes to a nation's Happiness Index. 
   
   ----
   
   ### Happiness Over Time 
-  ### **_Can happiness change over time?_** 
+  ### **_Is happiness changing over time?_** 
   
   <div align="center">
   
@@ -195,7 +194,7 @@ Click below image to be directed to the html file for download and to view an in
   
   **_Observable Trends/Insights:_** 
   +   Globally, happiness as defined by the Happiness Index is relatively stable. 
-  +   From our selected happy countries, Nicaragua has been trending happier in more recent years, while Spain’s happiness has been slowly declining 
+  +   Although, among the selected countries we looked at, Nicaragua has been trending happier in more recent years while Spain’s happiness has been slowly declining.
 
   <div align="center">
   
@@ -203,27 +202,30 @@ Click below image to be directed to the html file for download and to view an in
   
   </div>
   
-  +   Canada’s Happiness Index has been relatively stable. 
+  +   As for Canada -- happiness as defined by the Happiness Index has been relatively stable in Canada over the 10-year analysis period. 
   
   ---
   
   
   
-  # Conclusion
-  +   Reject the null hypothesis 
-  +   Economic health is positively correlated with a nation’s Happiness Index
-  +   Money doesn’t necessarily buy happiness, but it helps
+  # Conclusions
+  +   Economic health is positively correlated with a nation’s Happiness Index -- namely a nation's GDP is found to be highly correlated with the Happiness Index (r=0.74)
+  +   While economic health is a positive indicator for happiness, additional factors were identified to also be highly correlated with happiness:
+      ++ Negatively Correlated: Brain drain and Perception of security
+      ++ Positively Correlated: Literacy rate, Average amount of sleep, Average population age, and Tourism revenue  
   
   # Limitations
-  +   Lietracy Rate and Sleep shows much stronger positive corelation with happiness index, but due to the unavilability of the data for the outlier countries, the in-depth analysis could not be performed using these two variables.
+  +   Happiness was defined as per the World Happiness Report and therefore we were limited to this definition and algorithm used by the UN in conducting and evaluating happiness across the globe. 
+  +   We were limited to the variables we examined to determine _other_ factors that may be correlated with happiness. There are other measures by which we can examine economic health, in addition to GDP and unemployment rate. In addition to looking at economic health other studies in this area have looked at factors such as weather, culture, religion, and fun to determine whether these have an impact on a nation's level of happiness. 
+  +   We used multiple data sets from various sources to examine the _additional_ variables that may be correlated with out primary data set from the happiness report. As we cleaned and merged differet data sets together we were limited to the common sets of information available and therefore this limited our findings for certain countries and timeframes. Therefore another limitation of this analysis was due to the inherent incompleteness of some the data we had access to, namely for global literacy rate and amount of sleep. 
   
   # Appendices
   
   Powerpoint Presentation:
-  + [Slides](https://github.com/SShojaie/Suicide_squad/blob/master/Powerpoints/Project%20Week_Pursuit%20of%20Happiness_v0.6.pptx)
+  + [Slides](https://github.com/SShojaie/Suicide_squad/blob/master/Powerpoints/Project%20Week_Pursuit%20of%20Happiness_v1.0.pptx)
   
   Jupyter Scripts:
-  + [Pre-work Codes](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Codes)
+  + [Cleanup and Analysis Codes](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Codes)
   
   Saved Figures:
   + [Images](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Images)
