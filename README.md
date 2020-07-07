@@ -18,14 +18,9 @@ Now it might seem an odd time to start a project about world happiness. After al
 
 But we've all thought that we'd be happier with more cash in our pocket at some point or another; and it's only natural to feel unhappy and stressed when money's tight. This is precisely why now is the right moment to explore readily available data, to be able to analyze trends over time and correlate factors that impact happiness across the world. 
 
-While some would argue that “Rich countries are definitely happier than poor countries,” this project will look into other variables other than a country's economic health.
+While some would argue that “Rich countries are definitely happier than underdeveloped countries,” this project will look into other variables other than a country's economic health.
 
-----
-<div align="center">
-  
-> "Are richer nations happier?" 
 
-</div>
 
 ----
 
@@ -36,17 +31,16 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 +  [How does the happiness index look across the globe?](#happiness-index-across-the-globe)
 +  [Does economic health correlate with happiness?](#economic-health-factors-versus-happiness-index) 
 +  [What other factors impact happiness?](#summary-of-correlations)
-+  [How do outlier countries perform within the UN's happiness index variables?](#outliers-and-happiness-index-variables)
-+  [How do outlier countires perform with other factors?](#outliers-and-other-factors)
-+  How does Canada compare with outlier countries? 
-+  [How does Canada compare to US?](#canada-and-usa-on-happiness)
-+  [How does happiness change over time?](#happiness-over-time) 
++  [How do relatively happy countries rank on the Happiness Index variables?](#outliers-and-happiness-index-variables)
++  [How do relatively happy countries rank on other factors?](#outliers-and-other-factors)
++  [How does Canada perform and compare to US?](#canada-and-usa-on-happiness)
++  [Can happiness change over time?](#happiness-over-time) 
 
 ## Data Background
 
 Our primary dataset was obtained from the World Happiness Report (WHR) developed by UN's Sustainable Development Solutions Network. It's an annual publication that surveys the state of global happiness and ranks countries by how happy their citizens perceive themselves to be, which the report also correlates with various life factors. 
 
-The group also searched for other factors that could potentially impact the measure of happiness. Those datasets were derived from different sources such as the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government and World Economic Forum websites. 
+  The group also searched for other factors that could potentially impact the measure of happiness. Those datasets were derived from different sources such as the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government and World Economic Forum websites. 
 
 <div align="center">
   
@@ -54,15 +48,15 @@ The group also searched for other factors that could potentially impact the meas
 
 </div>
 
+All retrieved datasets date back to year 2005 but the first official WHR was published in 2012.  The scope of our in depth analysis covers the recent 2017 because it has a complete set of data. 
+
 ## Hypothesis
----
+
 <div align="center">
 
-> "A country's economic health by measure of GDP and Unemployment does not impact the happiness of its people"
+"A country's economic health by measure of GDP and Unemployment does not impact the happiness of its people"
 
 </div>
-
----
 
 
 ## Data Cleaning
@@ -79,7 +73,7 @@ An initial data analysis was conducted during the "pre-work" phase in order to r
 
 ### Happiness Index Across the Globe
 
-Click below image to be directed to the html file for download and to view an interactive visualization:
+Click below image to be directed to the html file for download and view a more interactive visualization:
 
 
 <div align="center">
@@ -216,11 +210,6 @@ Click below image to be directed to the html file for download and to view an in
   +   Canada’s Happiness Index has been relatively stable. 
   
   ---
-  
-  
-  
-  
-  
   
   
   
