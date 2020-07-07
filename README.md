@@ -220,7 +220,7 @@ Click below image to be directed to the html file for download and view a more i
   # Appendices
   
   Powerpoint Presentation:
-  + [Slides](https://github.com/SShojaie/Suicide_squad/blob/master/Powerpoints/Project%20Week_Pursuit%20of%20Happiness_v0.5.pptx)
+  + [Slides](https://github.com/SShojaie/Suicide_squad/blob/master/Powerpoints/Project%20Week_Pursuit%20of%20Happiness_v0.6.pptx)
   
   Jupyter Scripts:
   + [Pre-work Codes](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Codes)
