@@ -25,10 +25,10 @@ While some would argue that “Rich countries are definitely happier than underd
 Utilize Python, Pandas, Numpy and, Matplotlib and other visualization libraries to analyze and answer the following questions: 
 
 +  [How does the Happiness Index vary across the globe?](#happiness-index-across-the-globe)
-+  [Does economic health correlate with happiness?](#economic-health-factors-versus-happiness-index) 
-+  [What other factors impact happiness?](#summary-of-correlations)
-+  [How do happy countries relative to their economic health rank on the Happiness Index variables?](#outliers-and-happiness-index-variables)
-+  [How do happy countries relative to their economic health rank on other factors correlated with happiness?](#outliers-and-other-factors)
++  [Does economic health correlate with happiness?](#economic-health-factors-and-the-happiness-index) 
++  [What other factors impact happiness?](#additional-factors-that-impact-happiness)
++  [How do happy countries relative to their economic health rank on the Happiness Index variables?](#relatively-happy-countries-and-their-performance-on-happiness-index-variables)
++  [How do happy countries relative to their economic health rank on other factors correlated with happiness?](#relatively-happy-countries-and-their-performance-on-other-factors-related-to-happiness)
 +  [How does Canada perform on the Happiness Index variables and how does it compare to the US?](#canada-and-usa-on-happiness)
 +  [Is happiness changing over time?](#happiness-over-time) 
 
