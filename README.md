@@ -40,7 +40,7 @@ The group also searched for other factors that could potentially impact the meas
 
 <div align="center">
   
-<img width="454" alt="Sources Table" src="https://user-images.githubusercontent.com/65078870/86603006-75653c80-bf71-11ea-8f1b-f6388edb3ba0.PNG">
+<img width="459" alt="Sources Tablev2" src="https://user-images.githubusercontent.com/65078870/86791381-782a6500-c037-11ea-8f9f-055f91686eca.PNG">
 
 </div>
 
