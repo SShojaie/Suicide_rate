@@ -128,7 +128,7 @@ Click below image to be directed to the html file for download and view a more i
   
   <div align="center">
   
-  <img width="692" alt="Happy Outliers and Happiness Index" src="https://user-images.githubusercontent.com/65078870/86612021-7d2ade00-bf7d-11ea-8f1e-d60148f446d1.PNG">
+  <img width="692" alt="Happy Outliers and Happiness Index2" src="https://user-images.githubusercontent.com/65078870/86754156-a8a9d900-c00e-11ea-97a3-3d67fa52efb5.png">
   
   </div>
   
@@ -169,7 +169,7 @@ Click below image to be directed to the html file for download and view a more i
   
   <div align="center">
   
-  <img width="344" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="557" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86613960-4904ec80-bf80-11ea-9724-233e5a71edd8.PNG">
+  <img width="324" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="520" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86755096-603eeb00-c00f-11ea-94bf-ad1a6eeb1ab3.PNG">
   
   </div>
   
