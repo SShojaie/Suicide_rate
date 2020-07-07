@@ -29,7 +29,7 @@ Utilize Python, Pandas, Numpy and, Matplotlib and other visualization libraries 
 +  [What other factors impact happiness?](#additional-factors-that-impact-happiness)
 +  [How do happy countries relative to their economic health rank on the Happiness Index variables?](#relatively-happy-countries-and-their-performance-on-happiness-index-variables)
 +  [How do happy countries relative to their economic health rank on other factors correlated with happiness?](#relatively-happy-countries-and-their-performance-on-other-factors-related-to-happiness)
-+  [How does Canada perform on the Happiness Index variables and how does it compare to the US?](#canada-and-usa-on-happiness)
++  [How does Canada perform on the Happiness Index variables and how does it compare to the US?](#canada-and-us-on-happiness)
 +  [Is happiness changing over time?](#happiness-over-time) 
 
 ## Data Background
