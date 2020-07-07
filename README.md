@@ -113,7 +113,7 @@ Click below image to be directed to the html file for download and to view an in
   
   <div align="center">
   
-  <img width="892" alt="Series Variable Correlation" src="https://user-images.githubusercontent.com/65078870/86611437-a7c86700-bf7c-11ea-9d7f-d714f73881de.PNG">
+  <img width="846" alt="Series Variable Correlation v2" src="https://user-images.githubusercontent.com/65078870/86848813-b138f880-c07c-11ea-929a-a9e125f34556.PNG">
   
   </div>
   
