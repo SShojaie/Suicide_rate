@@ -36,7 +36,7 @@ Utilize Python, Pandas, Numpy and Data Visualization tools to answer the followi
 
 Our primary dataset was obtained from the World Happiness Report (WHR) developed by UN's Sustainable Development Solutions Network. It's an annual publication that surveys the state of global happiness and ranks countries by how happy their citizens perceive themselves to be, which the report also correlates with various life factors. 
 
-  The group also searched for other factors that could potentially impact the measure of happiness. Those datasets were derived from different sources such as the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government and World Economic Forum websites. 
+The group also searched for other factors that could potentially impact the measure of happiness. Those datasets were derived from different sources such as the Global Health Data Exchange (GHDx) by the University of Washington, The Global Economy, Central Intelligence Agency (CIA) Government and World Economic Forum websites. 
 
 <div align="center">
   
@@ -96,11 +96,11 @@ Click below image to be directed to the html file for download and view a more i
    
    **_Observable Trends/Insights:_** 
   
-  +   Regression analysis finds bought **GDP** and **Unemployment Rate** are correlated with the Happiness Index, however there are exceptions. 
+  +   Regression analysis finds bought GDP and Unemployment Rate are correlated with the Happiness Index, however there are exceptions. 
   
   +   GDP had a strong positive relationship or correlation with Happiness Index while Unemployment Rate inversely showed a negative correlation. 
   
-  +   Exceptions include outlier countries namely  **Costa Rica** and **Nicaragua**, for it demonstrated a relatively high Happiness Index scores even if its Log GDP were not outstanding. On the other hand, **Brazil** and **Spain**'s Happiness Index scores were high in the midst of high Unemployment rates.
+  +   Exceptions include outlier countries namely  **Costa Rica** and **Nicaragua** beacuse it demonstrated relatively high Happiness Index scores even if its Log GDP were not outstanding. On the other hand, **Brazil** and **Spain** aldo had high Happiness Index scores in the midst of high unemployment rates.
    
   
   ----
@@ -119,8 +119,8 @@ Click below image to be directed to the html file for download and view a more i
   
    **_Observable Trends/Insights:_** 
    
-   +  **Brain drain** and **Security index** topped the negatively correlated factors that impact Happiness. In contrast, **Sleep (min)**, **Average Age**, **Literacy rate** and **Rev Tourism** showed the most positively correlation. 
-  
+   +  **Brain drain** and **Security index** topped the negatively correlated factors that impact Happiness. 
+   +  Although **Sleep (min)** and  **Literacy rate** showed the most positively correlated factors with Happiness Index, we looked into **Rev Tourism** and **Average Age** variables for further analysis beacuse it doesn't have the limitations imposed by the aforementioned factors. 
   ----
   
   ### Outliers and Happiness Index Variables
@@ -206,7 +206,7 @@ Click below image to be directed to the html file for download and view a more i
   
   
   # Conclusion
-  +   Null hypothesis rejected
+  +   Reject the null hypothesis 
   +   Economic health is positively correlated with a nation’s Happiness Index
   +   Money doesn’t necessarily buy happiness, but it helps
   
