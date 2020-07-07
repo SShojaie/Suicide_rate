@@ -173,7 +173,7 @@ Click below image to be directed to the html file for download and view a more i
   
   <div align="center">
   
-  <img width="344" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="500" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86755096-603eeb00-c00f-11ea-94bf-ad1a6eeb1ab3.PNG">
+  <img width="344" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="450" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86755096-603eeb00-c00f-11ea-94bf-ad1a6eeb1ab3.PNG">
   
   </div>
   
