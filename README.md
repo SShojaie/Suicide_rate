@@ -55,11 +55,15 @@ All retrieved datasets date back to year 2005 but the first official WHR was pub
   
 The datasets were downloaded in the form of Comma Separated Values (CSV). Data cleaning process began with renaming column headers, dropping columns not required for the calculation. The datasets were not always complete, so the fields that contained NaN values were replaced with the preceding and succeeding year values.  Since the various datasets were combined, the countries name in the data sets were not the same, so the match function was used to identify the same countries with different naming and were renamed. Subsequently, all data points were transformed through a function matrix and merged into a single dataframe. To find the correlation and compare among the various variables, the values were normalized during the analysis.
 
+[See code: Data Cleaning](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/July06_cleanup/DataCleaning.ipynb)
+
 ## Data Analysis
 
 An initial data analysis was conducted during the "pre-work" phase in order to reframe specific questions this project intends to pursue. When the group had identified certain factors and outlier countries of interests to focus on, the main analysis proceeded with correlation and regression of variables among those highlighted countries. 
 
 ## Data Visualization 
+
+[See Code: Analysis and Visualization](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/Analysis/Consolidated%20Visualizations.ipynb)
 
 <!-- toc -->
 
@@ -169,7 +173,7 @@ Click below image to be directed to the html file for download and view a more i
   
   <div align="center">
   
-  <img width="324" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="520" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86755096-603eeb00-c00f-11ea-94bf-ad1a6eeb1ab3.PNG">
+  <img width="344" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="557" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86755096-603eeb00-c00f-11ea-94bf-ad1a6eeb1ab3.PNG">
   
   </div>
   
@@ -211,10 +215,21 @@ Click below image to be directed to the html file for download and view a more i
   +   Money doesn’t necessarily buy happiness, but it helps
   
   # Limitations
-  Lietracy Rate and Sleep shows much stronger positive corelation with happiness index, but due to the unavilability of the data for the outlier countries, the in-depth analysis could not be performed using these two variables.
+  +   Lietracy Rate and Sleep shows much stronger positive corelation with happiness index, but due to the unavilability of the data for the outlier countries, the in-depth analysis could not be performed using these two variables.
   
   # Appendices
   
+  Powerpoint Presentation:
+  + [Slides](https://github.com/SShojaie/Suicide_squad/blob/master/Powerpoints/Project%20Week_Pursuit%20of%20Happiness_v0.5.pptx)
+  
+  Jupyter Scripts:
+  + [Pre-work Codes](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Codes)
+  
+  Saved Figures:
+  + [Images](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Images)
+  
+  Raw Data and Outputs:
+  + [Datasets](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Data)
   
   Reference/Sources: 
   + https://worldhappiness.report
