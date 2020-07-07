@@ -210,9 +210,7 @@ Click below image to be directed to the html file for download and to view an in
   
   # Conclusions
   +   Economic health is positively correlated with a nation’s Happiness Index -- namely a nation's GDP is found to be highly correlated with the Happiness Index (r=0.74)
-  +   While economic health is a positive indicator for happiness, additional factors were identified to also be highly correlated with happiness:
-     + Negatively Correlated: Brain drain and Perception of security
-     + Positively Correlated: Literacy rate, Average amount of sleep, Average population age, and Tourism revenue  
+  +   While economic health is a positive indicator for happiness, additional factors were identified to also be highly correlated with happiness. Negatively correlated: Brain drain and Perception of security and positively correlated: Literacy rate, Average amount of sleep, Average population age, and Tourism revenue. 
   
   # Limitations
   +   Happiness was defined as per the World Happiness Report and therefore we were limited to this definition and algorithm used by the UN in conducting and evaluating happiness across the globe. 
