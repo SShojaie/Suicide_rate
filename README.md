@@ -100,7 +100,7 @@ Click below image to be directed to the html file for download and to view an in
    
    **_Observable Trends/Insights:_** 
   
-  +   To analyze economic health and it's correlation to the Happiness Index, we looked at GDP and % unemployment as indicators of economic health. Pearson correlation coefficient found that GDP is highly correlated with the Happiness Index (r=0.74), while % unemployment had a much weaker correlation with the Happiness Index (-0.21). 
+  +   To analyze economic health and it's correlation to the Happiness Index, we looked at GDP and % unemployment as indicators of economic health. Pearson correlation coefficient found that GDP is highly correlated with the Happiness Index (r=0.74), while % unemployment had a much weaker correlation with the Happiness Index (r=-0.21). 
     
   +   A regression analysis helped identify select countries that were relatively happier in comparison to their economic health. We identified and focused on **Costa Rica** and **Nicaragua** who had a relatively high happiness index score while lower GDP, and **Brazil** and **Spain** who also had a relatively high happiness index score while higher % of unemployment. 
   
@@ -121,7 +121,7 @@ Click below image to be directed to the html file for download and to view an in
    **_Observable Trends/Insights:_** 
    
    +  **Brain drain** and **Security index** topped the negatively correlated factors that impact Happiness. 
-   +  **Sleep** and  **Literacy rate** topped the positively correlated factors that impact Happiness. While Sleep and Literacy rate were highly correlated with the Happiness index, due to limited data availability, we shifted our focus to the next two positively correlated factors: **Tourism revenue** and **Average age of population**
+   +  **Sleep** and  **Literacy rate** topped the positively correlated factors that impact Happiness. While Sleep and Literacy rate were highly correlated, due to limited data availability, we shifted our focus to the next two positively correlated factors: **Tourism revenue** and **Average age of population**
 
   ----
   
@@ -141,7 +141,7 @@ Click below image to be directed to the html file for download and to view an in
    
    +  Costa Rica and Nicaragua scored especially high on **Freedom**, while Spain scored high on **Healthy Life Expectancy**.  
    
-   +  Interestingly, these selected countries rank low on **Generosity**.  
+   +  Interestingly, these selected countries ranked low on **Generosity**.  
   
   ----
   
@@ -158,15 +158,15 @@ Click below image to be directed to the html file for download and to view an in
   **_Observable Trends/Insights:_** 
   +   Scores for additional variables correlated with happiness vary among the selected happy countries. Interestingly, Nicaragua does not perform well across all four variables.
   
-  +   Spain has the highest earnings from tourism, while all other outlier countries underperform on this indicator. 
+  +   Spain has the highest earnings from tourism, while other focus countries underperformed on this indicator. 
   
-  +   Brain drain is a challenge for these countries, maximum brain drain occurs in Nicaragua, affecting its happiness index. Security threat could be one of the major reasons for impacting the perception of happiness, therby brain drain and security threat negatively impact the happiness index.
+  +   Brain drain is a challenge for these countries - maximum brain drain occurs in Nicaragua. Security threat could be one of the major reasons for impacting the perception of happiness.
   
   
   
   ----
   
-  ### Canada and USA on Happiness
+  ### Canada and US on Happiness
   #### **_How does Canada rank on the Happiness Index variables and additional factors found to be correlated with happiness?_**  
   
   <div align="center">
@@ -178,7 +178,7 @@ Click below image to be directed to the html file for download and to view an in
   
   **_Observable Trends/Insights:_** 
   +   With the exception of GDP & Generosity, Canada out performs the US across Happiness Index variables. 
-  +   Perception of corruption is especially low in Canada, compared to the US. This clearly demonstrates that GDP is not everything when it comes to a nation's Happiness Index. 
+  +   Perception of corruption is especially low in Canada compared to the US. This clearly demonstrates that GDP is not everything when it comes to a nation's Happiness Index. 
   
   ----
   
@@ -209,13 +209,13 @@ Click below image to be directed to the html file for download and to view an in
   
   
   # Conclusions
-  +   Economic health is positively correlated with a nation’s Happiness Index -- namely a nation's GDP is found to be highly correlated with the Happiness Index (r=0.74)
-  +   While economic health is a positive indicator for happiness, additional factors were identified to also be highly correlated with happiness. Negatively correlated: Brain drain and Perception of security and positively correlated: Literacy rate, Average amount of sleep, Average population age, and Tourism revenue. 
+  +   Economic health is positively correlated with a nation’s happiness - namely a nation's GDP is found to be highly correlated with the Happiness Index (r=0.74)
+  +   While economic health is a positive indicator for happiness, additional factors were identified to also be highly correlated with happiness. Negatively correlated: Brain drain and Perception of security; positively correlated: Literacy rate, Average amount of sleep, Average population age, and Tourism revenue. 
   
   # Limitations
-  +   Happiness was defined as per the World Happiness Report and therefore we were limited to this definition and algorithm used by the UN in conducting and evaluating happiness across the globe. 
+  +   Happiness was defined as per the World Happiness Report and therefore we were limited to this definition and the algorithm used by the UN in conducting and evaluating happiness across the globe. 
   +   We were limited to the variables we examined to determine _other_ factors that may be correlated with happiness. There are other measures by which we can examine economic health, in addition to GDP and unemployment rate. In addition to looking at economic health other studies in this area have looked at factors such as weather, culture, religion, and fun to determine whether these have an impact on a nation's level of happiness. 
-  +   We used multiple data sets from various sources to examine the _additional_ variables that may be correlated with out primary data set from the happiness report. As we cleaned and merged differet data sets together we were limited to the common sets of information available and therefore this limited our findings for certain countries and timeframes. Therefore another limitation of this analysis was due to the inherent incompleteness of some the data we had access to, namely for global literacy rate and amount of sleep. 
+  +   We used multiple data sets from various sources to examine the _additional_ variables that may be correlated with the primary data set from the Happiness Report. As we cleaned and merged differet data sets together we were limited to the common sets of information available and therefore this limited our findings for certain countries and timeframes. Therefore another limitation of this analysis was due to the inherent incompleteness of some the data we had access to, namely for global literacy rate and amount of sleep. 
   
   # Appendices
   
