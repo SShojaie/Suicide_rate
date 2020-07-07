@@ -55,7 +55,7 @@ Most retrieved datasets date back to 2005, although the first official WHR was p
   
 Datasets were downloaded in the form of Comma Separated Values (CSV). The data cleaning process began with renaming column headers and dropping columns not required for the analysis. Datasets were not always complete, therefore fields containing NaN values were replaced with the preceding or succeeding year's values. Data from various sources were merged to create a complete dataset for analysis. Merging from different sources created the challenge of dealing with country names that did not match in all data sets. Therefore the match function was used to identify the same countries with different names, followed by renaming to create a complete set of matching country names across all data sets. Finally all data points were transformed through a function matrix and merged into a single dataframe. To find correlation and to be able to compare rankings and performance among the various variables, the values in each happiness-related factors were normalized for the analysis.
 
-[See code: Data Cleaning](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/July07_vivi/DataCleaning.ipynb)
+[See code: Data Cleaning](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/cleanup/DataCleaning.ipynb)
 
 ## Data Analysis
 
