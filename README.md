@@ -78,7 +78,7 @@ Click below image to be directed to the html file for download and view a more i
 ## In Focus: Analysis
   
   ### Economic Health Factors versus Happiness Index
-  #### Does economic health correlate with happiness?
+  #### **_Does economic health correlate with happiness?_** 
   
   <div align="center">
   
@@ -107,7 +107,7 @@ Click below image to be directed to the html file for download and view a more i
   
   ### Summary of Correlations 
   
-  #### What other factors impact happiness?? 
+  #### **_What other factors impact happiness?_** 
   A series of variables (17 additional) from different datasets were compiled and analyzed for correlation with the Happiness Index
   
   <div align="center">
@@ -124,7 +124,7 @@ Click below image to be directed to the html file for download and view a more i
   ----
   
   ### Outliers and Happiness Index Variables
-  #### How do our relatively happy countries rank on the Happiness Index variables? 
+  #### **_How do our relatively happy countries rank on the Happiness Index variables?_** 
   
   <div align="center">
   
@@ -144,7 +144,7 @@ Click below image to be directed to the html file for download and view a more i
   ----
   
   ### Outliers and Other Factors
-  #### How do our relatively happy countries rank on additional happiness variables, correlated with the Happiness Index?  
+  #### **_How do our relatively happy countries rank on additional happiness variables, correlated with the Happiness Index?_**  
   
   <div align="center">
   
@@ -165,11 +165,11 @@ Click below image to be directed to the html file for download and view a more i
   ----
   
   ### Canada and USA on Happiness
-  #### How do we (Canada) rank along the Happiness Index factors and the additional highly correlated variables?  
+  #### **_How do we (Canada) rank along the Happiness Index factors and the additional highly correlated variables?_**  
   
   <div align="center">
   
-  <img width="444" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="657" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86613960-4904ec80-bf80-11ea-9724-233e5a71edd8.PNG">
+  <img width="344" alt="Canada Vs US GDP" src="https://user-images.githubusercontent.com/65078870/86613852-21158900-bf80-11ea-90d9-f3405ac7bb34.PNG"><img width="557" alt="Canada vs US Happiness" src="https://user-images.githubusercontent.com/65078870/86613960-4904ec80-bf80-11ea-9724-233e5a71edd8.PNG">
   
   </div>
   
@@ -180,7 +180,7 @@ Click below image to be directed to the html file for download and view a more i
   ----
   
   ### Happiness Over Time 
-  ### Can happiness change over time? 
+  ### **_Can happiness change over time?_** 
   
   <div align="center">
   
@@ -206,7 +206,9 @@ Click below image to be directed to the html file for download and view a more i
   
   
   # Conclusion
-  
+  +   Null hypothesis rejected
+  +   Economic health is positively correlated with a nation’s Happiness Index
+  +   Money doesn’t necessarily buy happiness, but it helps
   
   # Limitations
   Lietracy Rate and Sleep shows much stronger positive corelation with happiness index, but due to the unavilability of the data for the outlier countries, the in-depth analysis could not be performed using these two variables.
@@ -215,8 +217,9 @@ Click below image to be directed to the html file for download and view a more i
   
   
   Reference/Sources: 
-+   https://ghdx.healthdata.org
-+   https://www.theglobaleconomy.com
-+   https://www.cia.gov/library/publications/the-world-factbook/rankorder/2177rank.html
-+   https://www.weforum.org/agenda/2019/04/which-countries-get-the-most-sleep-and-how-much-do-we-really-need/
+  + https://worldhappiness.report
+  + https://ghdx.healthdata.org
+  + https://www.theglobaleconomy.com
+  + https://www.cia.gov/library/publications/the-world-factbook/rankorder/2177rank.html
+  + https://www.weforum.org/agenda/2019/04/which-countries-get-the-most-sleep-and-how-much-do-we-really-need
   
