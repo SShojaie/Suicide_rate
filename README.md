@@ -29,7 +29,7 @@ Utilize Python, Pandas, Numpy and, Matplotlib and other visualization libraries 
 +  [What other factors impact happiness?](#additional-factors-that-impact-happiness)
 +  [How do happy countries relative to their economic health rank on the Happiness Index variables?](#relatively-happy-countries-and-their-performance-on-happiness-index-variables)
 +  [How do happy countries relative to their economic health rank on other factors correlated with happiness?](#relatively-happy-countries-and-their-performance-on-other-factors-related-to-happiness)
-+  [How does Canada perform on the Happiness Index variables and how does it compare to the US?](#canada-and-usa-on-happiness)
++  [How does Canada perform on the Happiness Index variables and how does it compare to the US?](#canada-and-us-on-happiness)
 +  [Is happiness changing over time?](#happiness-over-time) 
 
 ## Data Background
@@ -55,7 +55,7 @@ Most retrieved datasets date back to 2005, although the first official WHR was p
   
 Datasets were downloaded in the form of Comma Separated Values (CSV). The data cleaning process began with renaming column headers and dropping columns not required for the analysis. Datasets were not always complete, therefore fields containing NaN values were replaced with the preceding or succeeding year's values. Data from various sources were merged to create a complete dataset for analysis. Merging from different sources created the challenge of dealing with country names that did not match in all data sets. Therefore the match function was used to identify the same countries with different names, followed by renaming to create a complete set of matching country names across all data sets. Finally all data points were transformed through a function matrix and merged into a single dataframe. To find correlation and to be able to compare rankings and performance among the various variables, the values in each happiness-related factors were normalized for the analysis.
 
-[See code: Data Cleaning](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/July07_vivi/DataCleaning.ipynb)
+[See code: Data Cleaning](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/cleanup/DataCleaning.ipynb)
 
 ## Data Analysis
 
@@ -74,7 +74,7 @@ Click below image to be directed to the html file for download and to view an in
 
 <div align="center">
   
-  [![Globe Happiness viz gif](https://user-images.githubusercontent.com/65078870/86514330-bc232d00-bddf-11ea-8772-b974bd960f6e.gif)](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Codes/images/Fig_Q1.html)
+  [![Globe Happiness viz gif](https://user-images.githubusercontent.com/65078870/86514330-bc232d00-bddf-11ea-8772-b974bd960f6e.gif)](https://github.com/SShojaie/Suicide_squad/blob/master/PursuitOfHappiness/Images/Fig_Q1.html)
   
 </div>
 
@@ -230,6 +230,7 @@ Click below image to be directed to the html file for download and to view an in
   
   Raw Data and Outputs:
   + [Datasets](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Data)
+  + [Pre-work](https://github.com/SShojaie/Suicide_squad/tree/master/PursuitOfHappiness/Pre-work)
   
   Reference/Sources: 
   + https://worldhappiness.report
